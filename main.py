@@ -3,7 +3,7 @@ import time
 
 pinPul = Pin(12,Pin.OUT)
 pinDir = Pin(4,Pin.OUT)
-subdivision = 800
+subdivision = 800  #nombre de subdivision dans la rotation du moteur, donnée variable à changer manuellement
 
 #tableau des angles possibles en fonction de la subdivision
 valeurs = {i+(j/10) for i in range(360) for j in range(9) if (abs((i+(j/10)) * subdivision / 360  - int((i+(j/10)) * subdivision / 360 )) <= 0.00001)}
