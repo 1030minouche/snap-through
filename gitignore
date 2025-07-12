@@ -1,0 +1,26 @@
+# Environnements virtuels
+env/
+venv/
+__pycache__/
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.bak
+.DS_Store
+
+# Données brutes volumineuses
+*.tiff
+*.mp4
+*.avi
+
+# Fichiers générés
+*.gif
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS spécifiques
+Thumbs.db
+ehthumbs.db
