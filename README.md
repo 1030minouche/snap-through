@@ -76,6 +76,9 @@ Le comportement proche du seuil est également étudié via de **petites oscilla
 ```bash
 python traitement_image.py --input <dossier contenant les images en .tiff> --output <nom du dossier de sortie> --fps <nombre d'image par seconde>
 ```
+### Exemple d'image pour la capture 
+
+![Image en .tiff](./image.tiff)
 
 ---
 
