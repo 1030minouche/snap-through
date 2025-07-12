@@ -1,4 +1,3 @@
-
 # Instabilité de snap-through d'une bande élastique
 
 ## 🎯 Objectif
@@ -41,6 +40,7 @@ Le comportement proche du seuil est également étudié via de **petites oscilla
 📄 README.md
 📄 requirements.txt
 📄 .gitignore
+📄 graph_position.jpg
 ```
 
 ---
@@ -69,10 +69,6 @@ Le comportement proche du seuil est également étudié via de **petites oscilla
   - à gauche : l’image de la bandelette
   - à droite : la courbe de position
 
-Exemple de résultat :
-
-![Graphe de position](./graph_position.jpg)
-
 ---
 
 ## ▶️ Exemple d’utilisation
@@ -83,11 +79,19 @@ python traitement_image.py --input data/oscillations_brutes/ --output gifs/oscil
 
 ---
 
-## ✅ Données fournies
+## 📊 Résultats
 
-- Données d’**angle critique** notées expérimentalement : `data/angles_critique.txt`
-- Jeu d’images `.tiff` d’une oscillation : `data/oscillations_brutes/`
-- GIFs résultats dans le dossier `gifs/`
+### Exemple de graphe de position verticale de la bandelette :
+
+![Graphe de position](./graph_position.jpg)
+
+### GIFs des expériences :
+
+#### Oscillations autour du seuil critique :
+![Oscillation critique](./gifs/oscillation_critique.gif)
+
+#### Instabilité de snap-through :
+![Snapthrough](./gifs/snapthrough.gif)
 
 ---
 
@@ -106,5 +110,3 @@ pip install -r requirements.txt
 ## 👤 Auteur
 
 Projet réalisé dans le cadre d’un stage de Licence 2 – 2025.
-
----
