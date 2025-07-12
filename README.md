@@ -74,7 +74,7 @@ Le comportement proche du seuil est également étudié via de **petites oscilla
 ## ▶️ Exemple d’utilisation
 
 ```bash
-python traitement_image.py --input data/oscillations_brutes/ --output gifs/oscillation_critique.gif
+python traitement_image.py --input <dossier contenant les images en .tiff> --output <nom du dossier de sortie> --fps <nombre d'image par seconde>
 ```
 
 ---
