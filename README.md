@@ -78,7 +78,7 @@ python traitement_image.py --input <dossier contenant les images en .tiff> --out
 ```
 ### Exemple d'image pour la capture 
 
-![Image en .tiff](./image.tiff)
+![Image en .tiff converti en jpg](./image.jpg)
 
 ---
 
